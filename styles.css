@@ -113,10 +113,6 @@ p {
   width: 65%;
 }
 
-.testimonial-container {
-  margin-bottom: 150px !important;
-}
-
 .carousel-indicators [data-bs-target] {
   width: 10px;
   height: 10px;
@@ -130,6 +126,12 @@ p {
 .testimonial-container h2 {
   font-size: 1.2rem;
   margin-top: 10px;
+}
+
+.testimonial-slide {
+  overflow: overlay;
+  min-height: 250px;
+  padding-top: 40px;
 }
 
 .testimonial-container .get-started-btn {
@@ -227,6 +229,10 @@ footer a:hover {
   color: red;
 }
 
+.attribution {
+  font-size: 0.9rem;
+}
+
 @media screen and (max-width: 990px) {
   #title {
     background-repeat: no-repeat;
@@ -269,7 +275,8 @@ footer a:hover {
     background-image: url(images/bg-tablet-pattern.svg);
     background-repeat: no-repeat;
     padding-bottom: 5rem;
-    background-position: right -170% bottom -45%;
+    background-position: right -170% bottom -85%;
+    background-size: 85%;
   }
 
   .illustration-box {
@@ -341,6 +348,11 @@ footer a:hover {
   .featurette {
     text-align: center;
     padding: 2.5rem;
+  }
+
+  .simplify-box {
+    background-image: url(images/bg-simplify-section-mobile.svg);
+    background-repeat: no-repeat;
   }
 
   .get-btn {
